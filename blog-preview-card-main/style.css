@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+@font-face{
+    font-family: myfont;
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+
+}
+
+*{
+    margin: 0;
+    font-family: myfont;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    max-width: 350px;
+    background-color: var(--White);
+    border-radius: 20px;
+    box-shadow: 10px 15px;
+
+}
+.card-img img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.card-img{
+    padding: 20px;
+}
+.card-body, .card-footer{
+    padding: 20px;
+}
+button{
+    background-color: var(--Yellow);
+    padding:8px 18px;
+    border: none;
+    border-radius: 5px;
+    font-style: 900;
+    
+}
+.card-body p{
+    color: var(--Grey);
+}
+.card-section{
+    padding: 20px;
+
+}
+.card-section button{
+    margin-bottom: 10px;
+    font-weight: bolder;
+
+}
+.card-body h2{
+    margin-bottom: 15px;
+}
+
+.card-footer img{
+    width: 40px;
+    margin-right: 10px;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+}
